@@ -1,0 +1,19 @@
+.carousel-inner {
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+.artikel {
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
+}
+.artikel .paragraf {
+  padding: 30px;
+  background-color: white;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.418);
+}

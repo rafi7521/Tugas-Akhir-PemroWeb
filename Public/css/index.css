@@ -1,0 +1,119 @@
+.swiper-container {
+  width: 100%;
+  /* width: 100vmin; */
+  height: 100vh;
+}
+.swiper-slide {
+  background-size: cover;
+  background-position: center;
+}
+.swiper-1 {
+  background-image: url('../images/slider/slide1.jpg');
+}
+.swiper-2 {
+  background-image: url('../images/slider/slide2.jpg');
+}
+.swiper-3 {
+  background-image: url('../images/slider/slide3.jpg');
+}
+.swiper-4 {
+  background-image: url('../images/slider/slide4.jpg');
+}
+.swiper-5 {
+  background-image: url('../images/slider/slide5.jpg');
+}
+.swiper-6 {
+  background-image: url('../images/slider/slide6.jpg');
+}
+.swiper-7 {
+  background-image: url('../images/slider/slide7.jpg');
+}
+
+.heading-1 {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  margin-top: 60vh;
+  /* background-color: white; */
+}
+.heading-1 h1 {
+  margin-left: auto;
+  margin-right: auto;
+}
+.heading-2 {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  margin-top: 50vh;
+  /* background-color: white; */
+}
+.heading-2 h1 {
+  font-size: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.brand-name {
+  margin-top: 10vh;
+  margin-right: 60vmax;
+  background-color: rgba(255, 255, 255, 0.6);
+  color: black;
+}
+a {
+  text-decoration: none;
+}
+.title {
+  background-color: rgba(255, 255, 255, 0.171);
+  width: 100%;
+}
+.myValue {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: white;
+}
+.person {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+.about_us {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  justify-content: space-evenly;
+}
+.avatar {
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 200px;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+#author1 {
+  background-image: url('../images/author/author1.jpeg');
+}
+#author2 {
+  background-image: url('../images/author/author2.jpeg');
+}
+
+
+.footer{
+  display: flex;
+  flex-wrap: wrap;
+}
+.comment{
+  
+  height: auto;
+  width: 300px;
+}
+.box-comment{
+  border: 1px solid black;
+  background-color: rgba(255, 255, 255, 0.815);
+  margin-top: 20px;
+}

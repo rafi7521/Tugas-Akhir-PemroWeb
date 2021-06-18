@@ -1,0 +1,27 @@
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.comment{
+    height: 1000px;
+    width: 50%;
+}
+/* .our_team{
+    background-color: brown;
+    height: 600px;
+    width: 100%;
+} */
+.navbar{
+    background-color: white;
+}
+
+@media(max-width:800px){
+    .container{
+        display: block;
+    }
+    .container div{
+        width: 100%;
+    }
+}
